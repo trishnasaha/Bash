@@ -129,7 +129,7 @@ produces:
 `cat` command used to concatenate content of the two or more files
 
     ## Create `file1.txt` and `file2.txt`
-    vi file1.txt ## Enter "Rajesh" as content
+    vi file1.txt ## Enter "trishna" as content
     vi file2.txt ## Enter "Detroja" as content
     cat file1.txt ## `cat` command is also a quick command to view the content of the very small file
     cat file2.txt
@@ -137,7 +137,7 @@ produces:
 
 produces:
 
-    Rajesh
+    trishna
     Detroja
     
 
@@ -148,7 +148,7 @@ produces:
 
 produces:
 
-    Rajesh
+    trishna
     Detroja
     
 
@@ -168,7 +168,7 @@ If `file3.txt` is already present and you want keep the **original + new** conte
 
 produces:
 
-    Rajesh
+    trishna
     Detroja
     Bioinformatics
     
@@ -404,14 +404,14 @@ produces:
     file1.txt  file2.txt  folder2  folder3  folder4  intro.txt
     
     total 28K
-    drwxrwxr-x 5 rajesh rajesh 4.0K Jan 16 16:51 ./
-    drwxrwxr-x 5 rajesh rajesh 4.0K Jan 16 16:43 ../
-    -rw-rw-r-- 1 rajesh rajesh    7 Jan 16 16:11 file1.txt
-    -rw-rw-r-- 1 rajesh rajesh    8 Jan 16 15:30 file2.txt
-    drwxrwxr-x 2 rajesh rajesh 4.0K Jan 16 16:12 folder2/
-    drwxrwxr-x 2 rajesh rajesh 4.0K Jan 16 16:12 folder3/
-    drwxrwxr-x 2 rajesh rajesh 4.0K Jan 16 16:12 folder4/
-    lrwxrwxrwx 1 rajesh rajesh   17 Jan 16 16:51 intro.txt -> ../temp/intro.txt
+    drwxrwxr-x 5 trishna trishna 4.0K Jan 16 16:51 ./
+    drwxrwxr-x 5 trishna trishna 4.0K Jan 16 16:43 ../
+    -rw-rw-r-- 1 trishna trishna    7 Jan 16 16:11 file1.txt
+    -rw-rw-r-- 1 trishna trishna    8 Jan 16 15:30 file2.txt
+    drwxrwxr-x 2 trishna trishna 4.0K Jan 16 16:12 folder2/
+    drwxrwxr-x 2 trishna trishna 4.0K Jan 16 16:12 folder3/
+    drwxrwxr-x 2 trishna trishna 4.0K Jan 16 16:12 folder4/
+    lrwxrwxrwx 1 trishna trishna   17 Jan 16 16:51 intro.txt -> ../temp/intro.txt
     
 
 **Note::** `-s` option means symbolic link of the file, means if you edit the file `intro.txt` from `intro` folder it change the content in `../temp/intro.txt` as well.
@@ -432,13 +432,13 @@ However, If you delete the file `intro.txt` from `intro` folder it will not dele
 produces:
 
     total 28K
-    drwxrwxr-x 5 rajesh rajesh 4.0K Jan 16 16:51 ./
-    drwxrwxr-x 5 rajesh rajesh 4.0K Jan 16 16:43 ../
-    -rw-rw-r-- 1 rajesh rajesh    7 Jan 16 16:11 file1.txt
-    -rw-rw-r-- 1 rajesh rajesh    8 Jan 16 15:30 file2.txt
-    drwxrwxr-x 2 rajesh rajesh 4.0K Jan 16 16:12 folder2/
-    drwxrwxr-x 2 rajesh rajesh 4.0K Jan 16 16:12 folder3/
-    drwxrwxr-x 2 rajesh rajesh 4.0K Jan 16 16:12 folder4/
-    lrwxrwxrwx 1 rajesh rajesh   17 Jan 16 16:51 intro.txt -> ../temp/intro.txt
+    drwxrwxr-x 5 trishna trishna 4.0K Jan 16 16:51 ./
+    drwxrwxr-x 5 trishna trishna 4.0K Jan 16 16:43 ../
+    -rw-rw-r-- 1 trishna trishna    7 Jan 16 16:11 file1.txt
+    -rw-rw-r-- 1 trishna trishna    8 Jan 16 15:30 file2.txt
+    drwxrwxr-x 2 trishna trishna 4.0K Jan 16 16:12 folder2/
+    drwxrwxr-x 2 trishna trishna 4.0K Jan 16 16:12 folder3/
+    drwxrwxr-x 2 trishna trishna 4.0K Jan 16 16:12 folder4/
+    lrwxrwxrwx 1 trishna trishna   17 Jan 16 16:51 intro.txt -> ../temp/intro.txt
     
     file1.txt  file2.txt  folder2  folder3  folder4

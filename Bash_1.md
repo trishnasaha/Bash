@@ -76,8 +76,8 @@ Here, `.bash_folder` is a hidden folder and `.bash_file.txt` is a hidden text fi
 produces:
 
     total 4.0K
-    drwxrwxr-x 2 rajesh rajesh 4.0K Jan 13 16:30 bash
-    -rw-rw-r-- 1 rajesh rajesh    0 Jan 13 16:30 bash.txt
+    drwxrwxr-x 2 trishna trishna 4.0K Jan 13 16:30 bash
+    -rw-rw-r-- 1 trishna trishna    0 Jan 13 16:30 bash.txt
     
 
 [](#ls--al)ls -al
@@ -92,12 +92,12 @@ produces:
 produces:
 
     total 16K
-    drwxrwxr-x  4 rajesh rajesh 4.0K Jan 13 16:51 .
-    drwxrwxr-x 10 rajesh rajesh 4.0K Jan 13 16:30 ..
-    -rw-rw-r--  1 rajesh rajesh    0 Jan 13 16:51 .bash_file.txt
-    drwxrwxr-x  2 rajesh rajesh 4.0K Jan 13 16:51 .bash_folder
-    drwxrwxr-x  2 rajesh rajesh 4.0K Jan 13 16:30 bash
-    -rw-rw-r--  1 rajesh rajesh    0 Jan 13 16:30 bash.txt
+    drwxrwxr-x  4 trishna trishna 4.0K Jan 13 16:51 .
+    drwxrwxr-x 10 trishna trishna 4.0K Jan 13 16:30 ..
+    -rw-rw-r--  1 trishna trishna    0 Jan 13 16:51 .bash_file.txt
+    drwxrwxr-x  2 trishna trishna 4.0K Jan 13 16:51 .bash_folder
+    drwxrwxr-x  2 trishna trishna 4.0K Jan 13 16:30 bash
+    -rw-rw-r--  1 trishna trishna    0 Jan 13 16:30 bash.txt
     
 
 [](#ll)ll
@@ -113,12 +113,12 @@ produces:
 produces:
 
     total 16K
-    drwxrwxr-x  4 rajesh rajesh 4.0K Jan 13 16:51 ./
-    drwxrwxr-x 10 rajesh rajesh 4.0K Jan 13 16:30 ../
-    -rw-rw-r--  1 rajesh rajesh    0 Jan 13 16:51 .bash_file.txt
-    drwxrwxr-x  2 rajesh rajesh 4.0K Jan 13 16:51 .bash_folder/
-    drwxrwxr-x  2 rajesh rajesh 4.0K Jan 13 16:30 bash/
-    -rw-rw-r--  1 rajesh rajesh    0 Jan 13 16:30 bash.txt
+    drwxrwxr-x  4 trishna trishna 4.0K Jan 13 16:51 ./
+    drwxrwxr-x 10 trishna trishna 4.0K Jan 13 16:30 ../
+    -rw-rw-r--  1 trishna trishna    0 Jan 13 16:51 .bash_file.txt
+    drwxrwxr-x  2 trishna trishna 4.0K Jan 13 16:51 .bash_folder/
+    drwxrwxr-x  2 trishna trishna 4.0K Jan 13 16:30 bash/
+    -rw-rw-r--  1 trishna trishna    0 Jan 13 16:30 bash.txt
     
 
 [](#ls--lt)ls -lt
@@ -132,8 +132,8 @@ produces:
 produces:
 
     total 4.0K
-    -rw-rw-r-- 1 rajesh rajesh    0 Jan 13 16:30 bash.txt
-    drwxrwxr-x 2 rajesh rajesh 4.0K Jan 13 16:30 bash
+    -rw-rw-r-- 1 trishna trishna    0 Jan 13 16:30 bash.txt
+    drwxrwxr-x 2 trishna trishna 4.0K Jan 13 16:30 bash
     
 
 [](#cd)cd
