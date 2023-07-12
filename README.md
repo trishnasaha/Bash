@@ -1,2 +1,2 @@
 # Bash
-Linux Scripts
+Linux commands
